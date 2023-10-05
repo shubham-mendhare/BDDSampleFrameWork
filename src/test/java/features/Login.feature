@@ -1,7 +1,7 @@
 
 
 Feature: Login feature
-  I want to use this template for Login feature file
+  I want to use this template for Login feature
   
   Background:
 			Given Intialize the setup and lunch the browser
