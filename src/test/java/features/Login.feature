@@ -8,14 +8,14 @@ Feature: Login feature
 			When User navigate to url
 			Then User present on Login page
 
-#@tearDown
+@production
   Scenario: Login to application with valid credentials
     Given User enters username and password
     When User clicks on login button
     Then User should get get land on Dashboard
 
 
-#@tearDown
+#@production
   Scenario Outline: Login to application with different credentials credentials
     Given User enters credentials <username> and <password>
     When User clicks on login button
@@ -23,4 +23,5 @@ Feature: Login feature
     
    Examples:
 	|	username	|	password		|
+	|	student 	|	Password123	|
 	|	student 	|	Password123	|
