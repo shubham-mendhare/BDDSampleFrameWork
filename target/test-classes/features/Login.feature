@@ -15,7 +15,7 @@ Feature: Login feature
     Then User should get get land on Dashboard
 
 
-#@production
+@production
   Scenario Outline: Login to application with different credentials credentials
     Given User enters credentials <username> and <password>
     When User clicks on login button
