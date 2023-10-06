@@ -20,8 +20,8 @@ public class LoginDefinations {
 	public void intialize_the_setup_and_lunch_the_browser() {
 	    // Write code here that turns the phrase above into concrete actions
 		driver = new FirefoxDriver();
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 	}
